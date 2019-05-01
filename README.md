@@ -8,7 +8,7 @@ Eventually it will be hosted on the [Federalist](https://federalist.18f.gov/). N
 
 ## Contributing
 
-See CONTRIBUTING.md
+See CONTRIBUTING.md.
 
 ## Acknowledgements
 -[US Web Design System](https://designsystem.digital.gov/)
