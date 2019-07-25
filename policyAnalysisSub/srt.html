@@ -193,7 +193,26 @@
         <div class="usa-width-three-fourths usa-layout-docs-main_content">
             <h1>Solicitation Review Tool (SRT) </h1>
 
-            <p class="usa-font-lead">FILLER.</p>
+            <p class="usa-font-lead">
+                <p><a href="https://www.fbo.gov/">FBO</a> is the U.S. government's system of record for opportunities 
+                    to do business with the government. Each night, the FBO system posts all updated opportunities as 
+                    a pseudo-xml file that is made publicly available via the File Transfer Protocol (FTP), which is a 
+                    standard network protocol used for the transfer of computer files between a client and server on a 
+                    computer network.
+                </p>
+                <P>
+                    This project fetches that solicitation data, parses it, and uses supervised machine learning to 
+                    determine whether or not the solicitation documents of Information Communications Technology (ICT) 
+                    notices contain appropriate setion 508 accessibility language.
+                </P>
+                <p>
+                    Following a service-oriented architecture, this project provides the back-end to a UI that GSA 
+                    policy experts will use to review ICT solicitations for 508 compliance; notify deficient solicitation 
+                    owners; monitor changes in historical compliance; and validate predictions to improve model performance. 
+                    This application has been dubbed the Solicitation Review Tool (SRT). This application is designed to be 
+                    run as a cron daemon within a Docker image on cloud.gov.
+                </p>
+            </p>
 
             <h2 id="section-heading-h2">Section heading (h2)</h2>
 
